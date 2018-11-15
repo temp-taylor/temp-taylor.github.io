@@ -1,0 +1,176 @@
+/*  Colour Palette
+#FCFCFC - Light grey
+#848587 - Dark grey
+#007A7C - Dark teal
+#5EB1BF - Teal
+#F4E04D - Yellow
+*/
+
+/* GENERAL STYLES ===================== */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+  background: magenta;
+  color: black;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #007A7C; /* Dark teal */
+  text-decoration: none;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Just some extra spacing for convenience */
+section {
+  padding: 50px 0px;
+}
+
+
+/* NAVIGATION =========================== */
+/* Nav */
+nav ul {
+    background: #5EB1BF;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #F4E04D;
+}
+
+/* HOME =========================== */
+header {
+  background: #F4E04D; /* Yellow */
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Kavoon', cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px 0px #5EB1BF; /* Teal */
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+p.caption {
+  margin-top: 0;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* BLOG =========================== */
+.blog-post h2 {
+  border-bottom: #F4E04D solid 4px;
+  margin-bottom: 5px;
+}
+
+.blog-post {
+  margin-top: 80px;
+}
+
+.date {
+  margin-top: 0px;
+  font-size: 0.8em;
+  font-weight: normal
+}
+
+.blog-post a[rel="tag"] {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #007A7C; /* Dark teal */
+  color: white;
+}
+
+.blog-post a[rel="tag"]:hover {
+  background-color: #5EB1BF; /* Teal */
+}
+
+/* SOCIAL ========================= */
+.social {
+  padding: 0;
+  background: #848587; /* Dark grey */
+  font-size: 40px;
+  text-align: center;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.social ul li {
+  display: inline-block;
+}
+
+.fab {
+  color: black;
+  margin: 10px;
+}
+
+.fab:hover {
+  color: #F4E04D; /* Yellow */
+}
+
+/* FOOTER ========================= */
+footer {
+  background: #F4E04D; /* Yellow */
+  text-align: center;
+  padding: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
